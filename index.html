@@ -54,6 +54,35 @@
             min-height: 400px;
           }
         }
+
+        .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #777;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
         </style>
 
     <body>
@@ -154,36 +183,60 @@
             <div class="lp-row-padding lp-center">
               <div class="lp-col m3">
                 <img src="image/art1.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Three Little Birds">
+                <div class="overlay">
+                  <div class="text">Illustration Work</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art2.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Coffee beans">
+                <div class="overlay">
+                  <div class="text">Logo Design</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art3.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Bear closeup">
+                <div class="overlay">
+                  <div class="text">Java Development</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art4.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Quiet ocean">
+                <div class="overlay">
+                  <div class="text">Photography</div>
+                </div>
               </div>
             </div>
 
             <div class="lp-row-padding lp-center lp-section">
               <div class="lp-col m3">
                 <img src="image/art5.png" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="The mist">
+                <div class="overlay">
+                  <div class="text">Web Development</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art6.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="My beloved typewriter">
+                <div class="overlay">
+                  <div class="text">Java Database design</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art7.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Empty ghost train">
+                <div class="overlay">
+                  <div class="text">Alice</div>
+                </div>
               </div>
 
               <div class="lp-col m3">
                 <img src="image/art8.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Sailing">
+                <div class="overlay">
+                  <div class="text">Greenfoot </div>
+                </div>
               </div>
               <!-- <button class="lp-button lp-padding-large lp-light-grey" style="margin-top:64px">LOAD MORE</button> -->
             </div>
