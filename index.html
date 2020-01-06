@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="C:\Users\Lene\Documents\portfolioPage\LeBeatrix.github.io\lp.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   
     <style>
@@ -17,7 +16,7 @@
           line-height: 1.8;
         }
         
-        /* Create a Parallax Effect */
+        /* Effect */
          
         .bgimg-1, .bgimg-2, .bgimg-3 {
           background-attachment: fixed;
@@ -26,20 +25,20 @@
           background-size: cover;
         }
         
-        /* First image (Logo. Full height) */
+        /* First image  */
         .bgimg-1 {
           background-image: url("image/img2.png");
           min-height: 100%;
         }
         
-        /* Second image (Portfolio) */
+        /* 2nd image (Portfolio) */
         .bgimg-2 {
           background-image: url("image/img4.png");
 
           min-height: 400px;
         }
         
-        /* Third image (Contact) */
+        /* 3rd image (Contact) */
         .bgimg-3 {
           background-image: url("image/img3.png");
           min-height: 400px;
@@ -48,7 +47,7 @@
         .lp-wide {letter-spacing: 10px;}
         .lp-hover-opacity {cursor: pointer;}
         
-        /* Turn off parallax scrolling for tablets and phones */
+        /* Turn off scrolling for tablets and phones */
         @media only screen and (max-device-width: 1600px) {
           .bgimg-1, .bgimg-2, .bgimg-3 {
             background-attachment: scroll;
@@ -59,7 +58,7 @@
 
     <body>
 
-        <!-- Navigation Bar (sitting on top)-->
+        <!-- NavBar (sitting on top)-->
         <div class = "topPart">
             <div class="mybar" id="myNavbar">
                 <a class= "mybar-item "></a>
@@ -73,7 +72,7 @@
             </div>
         </div>
 
-        <!-- Second Navigation transitions-->
+        <!-- 2nd Nav transitions-->
         <div id="navDemo" class="lp-bar-block lp-white lp-hide lp-hide-large lp-hide-medium">
             <a href="#about" class="lp-bar-item lp-button" onclick="toggleFunction()">ABOUT</a>
             <a href="#portfolio" class="lp-bar-item lp-button" onclick="toggleFunction()">PORTFOLIO</a>
@@ -82,27 +81,27 @@
           </div>
         </div>
 
-        <!-- Home image with text-->
+        <!-- Home image + text-->
         <div class="bgimg-1 lp-display-container lp-opacity-min" id="home">
             <div class="lp-display-middle" style="white-space:nowrap;">
               <span class="lp-center lp-padding-large lp-black lp-xlarge lp-wide lp-animate-opacity">L&#398;N&Eacute; <span class="lp-hide-small">PRI&#413;SL&#560;&#560;</span></span>
             </div>
           </div> 
 
-        <!-- About Section-->
+        <!-- About-->
         <div class="lp-content lp-container lp-padding-64" id="about">
             <h3 class="lp-center">ABOUT ME</h3>
             <p class="lp-center"><em>I love Creating</em></p>
             <p>I am passionate about everything I do and I love programming. I am known for being honest and creative. I am a selfmade artist and coding is one of my favorite art forms. Experience is an important aspect for me and I enjoy to learn from not just people but also from life.</p>
-            <div class="lp-row">
+          <div class="lp-row">
               <div class="lp-col m6 lp-center lp-padding-large">
                 <p><b><i class="fa fa-user lp-margin-right"></i>Lene Prinsloo</b></p><br>
                 <img src="C:\Users\Lene\Documents\portfolioPage\LenePortfolio\image\it.jpg" class="lp-round lp-image lp-opacity lp-hover-opacity-off" alt="Photo of Me" width="500" height="333">
               </div>
 
               <!-- Hide this text on small devices -->
-    <div class="lp-col m6 lp-hide-small lp-padding-large">
-        <p>Welcome to my website. I am Creative Web Developer who would like to bring something new to the web development world. I am interested in animation and design because I want to combine creativity with logic and problem solving. </p>
+        <div class="lp-col m6 lp-hide-small lp-padding-large">
+            <p>Welcome to my website. I am Creative Web Developer who would like to bring something new to the web development world. I am interested in animation and design because I want to combine creativity with logic and problem solving. </p>
       </div>
     </div>
     <p class="lp-large lp-center lp-padding-16">Im really good at:</p>
