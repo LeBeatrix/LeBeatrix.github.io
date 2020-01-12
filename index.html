@@ -57,18 +57,19 @@
         }
 
         .overlay {
-                  position: absolute;
-                  top: 0;
-                  bottom: 0;
-                  left: 0;
-                  right: 0;
-                  height: 100%;
-                  width: 100%;
-                  opacity: 0;
-                  transition: .5s ease;
-                  background-color: #008CBA;
-                }
-  
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
         
         </style>
 
@@ -164,69 +165,77 @@
         <!-- Portfolio Section-->
         <div class="lp-content lp-container lp-padding-64" id="portfolio">
             <h3 class="lp-center">MY WORK</h3>
-            <p class="lp-center"><em>Here are some of my previous projects.<br> Click on the images to make them bigger</em></p><br>
+            <p class="lp-center"><em>Here are some of my previous projects.<br> Click on the images for examples of my work</em></p><br>
 
             <!-- Responsive Grid. -->
             <div class="lp-row-padding lp-center">
               <div class="lp-col m3">
-                <img src="image/art1.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Illustration Work">
-                <div class="overlay">
+                <a href="https://drive.google.com/drive/folders/1Z8ef1VVRgLmlqWoNjhiHrrjudTvVfQ6S" target="_blank">
+                <img src="image/art1.jpg" style="width:100%"  class="lp-hover-opacity" alt="Illustration Work">
+              </a>
                   Illustration Work
-                </div>
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art2.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Logo Design">
-                <div class="lp-overlay">
-                  <div class="text">Logo Design</div>
-                </div>
+                <a href="https://drive.google.com/drive/folders/1xtNWOn3RBDZndN_B8g58hTVDD0extVzV" target="_blank">
+                <img src="image/art2.jpg" style="width:100%"  class="lp-hover-opacity" alt="Logo Design">
+              </a>
+                  Logo Design
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art3.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Java Development">
-                <div class="lp-overlay">
-                  <div class="text">Java Development</div>
-                </div>
+                <a href="https://215025830.wixsite.com/threebirds" target="_blank">
+                <img src="image/art3.jpg" style="width:100%"  class="lp-hover-opacity" alt="Java Development">
+              </a>
+                  Java Development
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art4.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Photography">
-                <div class="lp-overlay">
-                  <div class="text">Photography</div>
-                </div>
+                <a href="https://215025830.wixsite.com/threebirds" target="_blank">
+                <img src="image/art4.jpg" style="width:100%"  class="lp-hover-opacity" alt="Photography">
+              </a>
+                  Photography
+                
               </div>
             </div>
 
             <div class="lp-row-padding lp-center lp-section">
               <div class="lp-col m3">
-            
-                <a href="https://215025830.wixsite.com/threebirds"><img src="image/art5.png" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Web Development"></a>
-                <div class="lp-overlay">
-                  <div class="text">Web Development</div>
-                </div>
+                  <a href="https://215025830.wixsite.com/threebirds" target="_blank">
+                    <img src="image/art5.png" style="width:100%" class="lp-hover-opacity" alt="Web Development">
+                  </a>
+                
+                  Web Development
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art6.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Java Database design">
-                <div class="lp-overlay">
-                  <div class="text">Java Database design</div>
-                </div>
+                <a href="https://215025830.wixsite.com/threebirds" target="_blank">
+                <img src="image/art6.jpg" style="width:100%"  class="lp-hover-opacity" alt="Java Database design">
+              </a>
+                  Java Database design
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art7.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Alice">
-                <div class="lp-overlay">
-                  <div class="text">Alice</div>
-                </div>
+                <a href="https://215025830.wixsite.com/threebirds" target="_blank">
+                <img src="image/art7.jpg" style="width:100%"  class="lp-hover-opacity" alt="Alice">
+              </a>
+                  Alice
+                
               </div>
 
               <div class="lp-col m3">
-                <img src="image/art8.jpg" style="width:100%" onclick="onClick(this)" class="lp-hover-opacity" alt="Greenfoot">
-                <div class="lp-overlay">
-                  <div class="text">Greenfoot </div>
-                </div>
+                <a href="https://drive.google.com/drive/folders/1lVeRwteodBX1eqx0Z_erqx6k4YL0E4pu" target="_blank">
+                <img src="image/art8.jpg" style="width:100%"  class="lp-hover-opacity" alt="Greenfoot">
+              </a>
+                  Greenfoot
               </div>
-              <!-- <button class="lp-button lp-padding-large lp-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+
+              <a href="https://drive.google.com/open?id=1E0tNwmojs5XM5LuDCLNFJXoe-mI5JmmB" target="_blank"><button class="lp-button lp-padding-large lp-light-grey" style="margin-top:64px">MY CV</button></a> 
             </div>
             </div>
 
@@ -261,7 +270,8 @@
         <i class="fa fa-envelope fa-fw lp-hover-text-black lp-xlarge lp-margin-right"></i> Email: prinsloolene@gmail.com<br>
       </div>
       <p><i class="fa fa-coffee"></i>Leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
+
+      <form method = "post" name = "myemailform" action="/action_page.php" target="_blank">
         <div class="lp-row-padding" style="margin:0 -16px 8px -16px">
           <div class="lp-half">
             <input class="lp-input lp-border" type="text" placeholder="Name" required name="Name">
