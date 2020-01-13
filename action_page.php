@@ -5,12 +5,12 @@ if(!isset($_POST['submit']))
     echo "error; you need to submit the form!";
 }
 
-$name= $_POST['Name'];
+$name = $_POST['Name'];
 $visitor_email = $_POST['Email'];
-$message= $_POST['Message'];
+$message = $_POST['Message'];
 
 //Validate first
-if(empty($Name)||($visitor_email))
+if(empty($name)||($visitor_email))
 {
     echo "Name and email are mandatory!";
     exit;
@@ -22,13 +22,13 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'prinsloolene@outlook.com';
+$email_from = 'prinsloolene@gmail.com';
 $email_subject = "New Form submission";
 $email_body = "You have received a new message from the user $Name. \n".
    // "email address: $visitor_email\n".
-    "Here is the message:\n $Message".
+    "Here is the message:\n $message".
 
-$to = "prinsloolene@outlook.com";
+$to = "prinsloolene@gmail.com";
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 
