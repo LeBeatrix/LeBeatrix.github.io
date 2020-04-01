@@ -48,6 +48,49 @@
         
         .lp-wide {letter-spacing: 10px;}
         .lp-hover-opacity {cursor: pointer;}
+
+
+        .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+              .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+      .text {
+        background-color: #ffde59;
+        color: #283731;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+
         
         /* Turn off scrolling for tablets and phones */
         @media only screen and (max-device-width: 1600px) {
@@ -184,70 +227,87 @@
 
             <!-- Responsive Grid. -->
             <div class="lp-row-padding lp-center">
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://drive.google.com/drive/folders/1Z8ef1VVRgLmlqWoNjhiHrrjudTvVfQ6S" target="_blank">
-                <img src="image/illus-01.png" style="width:100%"  class="lp-hover-opacity" alt="Illustration Work">
+                <img src="image/illus-01.png" style="width:100%"  class="lp-hover-opacity image" alt="Illustration Work">
+                <div class="middle">
+                  <div class="text">Illustration Work</div>
+                </div> 
               </a>
-                  Illustration Work
-                
+               
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://drive.google.com/drive/folders/1xtNWOn3RBDZndN_B8g58hTVDD0extVzV" target="_blank">
                 <img src="image/logo-01.png" style="width:100%"  class="lp-hover-opacity" alt="Logo Design">
+                <div class="middle">
+                  <div class="text">Logo Design</div>
+                </div> 
               </a>
-                  Logo Design
                 
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://drive.google.com/open?id=1maCIyJK4-seUTzhbgw5jkdWC4u8V3m99" target="_blank">
                 <img src="image/java-01.png" style="width:100%"  class="lp-hover-opacity" alt="Java Development">
-              </a>
-                  Java Development
+                <div class="middle">
+                  <div class="text">Java Development</div>
+              </div> 
+              </a>  
                 
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://www.facebook.com/lene.prinsloo/media_set?set=a.822644141138680&type=3" target="_blank">
                 <img src="image/camera Logo.png" style="width:100%"  class="lp-hover-opacity" alt="Photography">
+                <div class="middle">
+                  <div class="text">Photography</div>
+              </div> 
+    
               </a>
-                  Photography
-                
+                  
               </div>
             </div>
 
-            <div class="lp-row-padding lp-center lp-section">
-              <div class="lp-col m3">
+            <div class="lp-row-padding lp-center lp-section ">
+              <div class="lp-col m3 container">
                   <a href="https://215025830.wixsite.com/threebirds" target="_blank">
                     <img src="image/screen-01.png" style="width:100%" class="lp-hover-opacity" alt="Web Development">
+                    <div class="middle">
+                      <div class="text">Web Development</div>
+                    </div> 
                   </a>
                 
-                  Web Development
-                
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://drive.google.com/open?id=1vbwTFSgiNSUrIot9uspTPewnsYftxlPo" target="_blank">
                 <img src="image/search-01.png" style="width:100%"  class="lp-hover-opacity" alt="Java Database design">
-              </a>
-                  Research Report
+                <div class="middle">
+                  <div class="text">Research Report</div>
+                </div> 
+              </a>    
                 
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://www.canva.com/folder/all-designs" target="_blank">
                 <img src="image/canva-01.png" style="width:100%"  class="lp-hover-opacity" alt="Canva">
+                <div class="middle">
+                  <div class="text">Canva Designs</div>
+                </div> 
               </a>
-                  Canva Designs
-                
+                  
               </div>
 
-              <div class="lp-col m3">
+              <div class="lp-col m3 container">
                 <a href="https://drive.google.com/drive/folders/1lVeRwteodBX1eqx0Z_erqx6k4YL0E4pu" target="_blank">
                 <img src="image/greenfoot-01.png" style="width:100%"  class="lp-hover-opacity" alt="Greenfoot">
+                <div class="middle">
+                  <div class="text">Greenfoot</div>
+                </div> 
               </a>
-                  Greenfoot
+                  
               </div>
 
               </div>
