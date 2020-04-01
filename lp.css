@@ -105,6 +105,7 @@ a{color:inherit}
 .lp-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
 .lp-bar{width:100%;overflow:hidden}.lp-center .lp-bar{display:inline-block;width:auto}
 .lp-bar .lp-bar-item{padding:8px 16px;float:right;width:auto;border:none;display:block;outline:0}
+#navLogo{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
 .lp-bar .lp-dropdown-hover,.lp-bar .lp-dropdown-click{position:static;float:left}
 .lp-bar .lp-button{white-space:normal}
 .lp-bar-block .lp-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
@@ -221,6 +222,7 @@ a{color:inherit}
 .lp-margin-bottom{margin-bottom:16px!important}
 .lp-margin-left{margin-left:16px!important}
 .lp-margin-right{margin-right:16px!important}
+
 .lp-padding-small{padding:4px 8px!important}
 .lp-padding{padding:8px 16px!important}
 .lp-padding-large{padding:12px 24px!important}
@@ -229,6 +231,7 @@ a{color:inherit}
 .lp-padding-32{padding-top:32px!important;padding-bottom:32px!important}
 .lp-padding-48{padding-top:48px!important;padding-bottom:48px!important}
 .lp-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
 .lp-left{float:left!important}.lp-right{float:right!important}
 .lp-button:hover{color:#000!important;background-color:#ccc!important}
 .lp-transparent,.lp-hover-none:hover{background-color:transparent!important}
