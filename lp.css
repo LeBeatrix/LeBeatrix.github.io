@@ -131,6 +131,8 @@ a{color:inherit}
 @media (max-width:1205px){.lp-auto{max-width:95%}}
 @media (max-width:600px){.lp-modal-content{margin:0 10px;width:auto!important}.lp-modal{padding-top:30px}
 .lp-dropdown-hover.lp-mobile .lp-dropdown-content,.lp-dropdown-click.lp-mobile .lp-dropdown-content{position:relative}	
+
+/*hide from mobile screen */
 .lp-hide-small{display:none!important}.lp-mobile{display:block;width:100%!important}.lp-bar-item.lp-mobile,.lp-dropdown-hover.lp-mobile,.lp-dropdown-click.lp-mobile{text-align:center}
 .lp-dropdown-hover.lp-mobile,.lp-dropdown-hover.lp-mobile .lp-btn,.lp-dropdown-hover.lp-mobile .lp-button,.lp-dropdown-click.lp-mobile,.lp-dropdown-click.lp-mobile .lp-btn,.lp-dropdown-click.lp-mobile .lp-button{width:100%}}
 @media (max-width:768px){.lp-modal-content{width:500px}.lp-modal{padding-top:50px}}
